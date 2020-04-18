@@ -1,0 +1,70 @@
+page-command-validation {
+
+}
+#searchBadge {
+	position: absolute;
+	font-size: 1.5rem;
+    top: 30px;
+    z-index: 1;
+    right: 80px;
+}
+#gestionBadge {
+	position: absolute;
+	font-size: 1.5rem;
+    z-index: 1;
+    right: 60px;
+}
+.no-scroll {
+  .scroll-content{
+    overflow: hidden !important;
+  }
+}
+.scroll-content {
+    padding:0% !important;
+	}
+.fab-address{
+	color:black;
+  background-color:gold;
+}
+.fab-address-element{
+	color:whitesmoke;
+  background-color:gold;
+}
+.fab-search{
+	color: gold;
+	background-color: #488aff;
+}
+.autocomplete {
+	width: 100%;
+
+	ion-searchbar {
+		padding: 1px !important;
+		
+		searchbar-input{
+			border-radius: 50vh;
+		}
+	}
+
+	ion-list {
+		position: absolute;
+		width: inherit;
+		overflow-y: scroll;
+		max-height: 300%;
+		
+
+		ion-item {
+
+			img {
+				max-height: 2.5rem;
+				width: auto;
+				margin: auto;
+				display: block;
+			}
+		}
+
+		ion-item:hover {
+			cursor: pointer;
+			background: #f1f1f1
+		}
+	}
+}
