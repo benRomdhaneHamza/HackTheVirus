@@ -15,7 +15,7 @@
 		</button>
 	</ion-fab>
 	<br>
-	<h3 *ngIf="space && space.name">Les repas offert par {{ space.name }} :</h3>
+	<h3 *ngIf="space && space.name">Les produits offert par {{ space.name }} :</h3>
 	<div *ngIf="meals && meals.length">
 		<div *ngFor="let meal of meals">
 			<meal-item [meal]="meal" [parentComponent]="'home'"></meal-item>
